@@ -5,8 +5,16 @@ public class TryCatch
     {
         int a = 0;
         int b = 10;
-        b /= a;
-        Console.WriteLine(a);
+        try
+        {
+            b /= a;
+        }
+        catch
+        {
+            Console.WriteLine(a);
+        }
     }
+}
+
 
 
